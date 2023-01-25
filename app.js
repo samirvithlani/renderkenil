@@ -23,16 +23,19 @@ const uploadRoutes = require('./routes/UploadRoutes');
 const NetflixRoutes = require('./subscriptionModel/routes/NetflixRoute')
 
 // app.use('/fapi',fapiRoute)
-app.use('/user',UserRoute)
-app.use('/employee1',EmployeeRoute)
-app.use('/department',DepartmentRoute)
-app.use('/exam',ExamRoute)
-app.use('/examuser',ExamUserRoute)
-app.use('/examquestion',QuestionRoute)
-app.use('/role',RoleRoutes)
-app.use('/upload',uploadRoutes)
-app.use('/signup',SignupRoute)
-app.use('/netflix',NetflixRoutes)
+// app.use('/user',UserRoute)
+// app.use('/employee1',EmployeeRoute)
+// app.use('/department',DepartmentRoute)
+// app.use('/exam',ExamRoute)
+// app.use('/examuser',ExamUserRoute)
+// app.use('/examquestion',QuestionRoute)
+// app.use('/role',RoleRoutes)
+// app.use('/upload',uploadRoutes)
+// app.use('/signup',SignupRoute)
+// app.use('/netflix',NetflixRoutes)
+app.get("/",(req,res)=>{
+    res.send("Hello World")
+})
 
 // connect with cluster
 mongoose.connect("mongodb+srv://kenil:"+MONGO_PASSWORD+"@cluster0.599iw6h.mongodb.net/club5?retryWrites=true&w=majority",{
