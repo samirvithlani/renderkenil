@@ -11,16 +11,16 @@ const MONGO_PASSWORD=process.env.MONGO_PASSWORD
 // module.exports={PORT}
 
 // const fapiRoute = require('./routes/firstApiRoute')
-const UserRoute = require('./routes/UserRoute')
-const EmployeeRoute = require('./routes/EmployeeRoutes')
-const DepartmentRoute = require('./routes/DepartmentRoutes')
-const ExamRoute = require('./routes/ExamRoute')
-const ExamUserRoute = require('./routes/ExamUserRoute')
-const QuestionRoute = require('./routes/QuestionRoute')
-const RoleRoutes = require('./routes/RoleRoutes')
-const SignupRoute = require('./routes/SignupRoutes')
-const uploadRoutes = require('./routes/UploadRoutes');
-const NetflixRoutes = require('./subscriptionModel/routes/NetflixRoute')
+// const UserRoute = require('./routes/UserRoute')
+// const EmployeeRoute = require('./routes/EmployeeRoutes')
+// const DepartmentRoute = require('./routes/DepartmentRoutes')
+// const ExamRoute = require('./routes/ExamRoute')
+// const ExamUserRoute = require('./routes/ExamUserRoute')
+// const QuestionRoute = require('./routes/QuestionRoute')
+// const RoleRoutes = require('./routes/RoleRoutes')
+// const SignupRoute = require('./routes/SignupRoutes')
+// const uploadRoutes = require('./routes/UploadRoutes');
+// const NetflixRoutes = require('./subscriptionModel/routes/NetflixRoute')
 
 // app.use('/fapi',fapiRoute)
 // app.use('/user',UserRoute)
